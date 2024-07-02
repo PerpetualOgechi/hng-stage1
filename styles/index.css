@@ -8,6 +8,19 @@ body{
     color: #ededed;
     background: #081b29;
 }
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
 .header{
     position: fixed;
     top: 0;
@@ -30,7 +43,8 @@ body{
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
-    color: rgb(234, 0, 255);;
+    /* color: rgb(234, 0, 255); */
+    color: #0ef;
 }
 
 .navbar a{
@@ -44,7 +58,8 @@ body{
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: 1s;
-    color: rgb(234, 0, 255);;
+    /* color: rgb(234, 0, 255); */
+    color: #0ef;
 }
 
 .navbar a:hover{
@@ -63,7 +78,8 @@ body{
     padding: 70px 10% 0;
     border-bottom: 2px solid #0ef;
 }
- 
+
+
 .home-content{
     /* max-width: 500px; */
     transition: .3s;
@@ -92,6 +108,7 @@ body{
     font-size: 52px;
     font-weight: 700;
     margin: -3px 0;
+    color:rgb(234, 0, 255);
 }
 
 .home-content p{
@@ -243,15 +260,15 @@ margin: 15px 0 30px;
     
 }
 
-.container{
+/* .container{
     padding: 90px;
-}
+} */
 
 .services-list{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     grid-gap: 48px;
-    margin-top: 50px;
+    margin-top: 50px; */
 }
 
 .services-list div{
@@ -587,7 +604,7 @@ color: rgb(234, 0, 255);
 }
 
 .contact-text{
-    width: 500px;
+    max-width: 500px;
 }
 
 .contact-text h2{
@@ -658,7 +675,7 @@ color: rgb(234, 0, 255);
 
 .resume-container{
     /* position: relative; */
-    width: 500px;
+    max-width: 500px;
 }
 .purple{
     display: flex;
@@ -738,8 +755,13 @@ color: rgb(234, 0, 255);
     .home{
         display: flex;
         flex-direction: column;
-        margin-top: 150px;
+        /* margin-top: 150px; */
+        padding-bottom: 150px;
+        padding-top: 150px;
         
+    }
+    .home-content h1{
+        font-size: 35px;
     }
 
     .about{
@@ -753,6 +775,9 @@ color: rgb(234, 0, 255);
     .about-img{
         display: flex;
         justify-content: center;
+    }
+    .about h2{
+        font-size: 35px;
     }
     .image-container{
         width: 230px;
@@ -791,16 +816,25 @@ color: rgb(234, 0, 255);
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 50px;
+    }
+    .sub-title{
+        text-align: center;
+        font-size: 35px;
+        padding-bottom: 70px;
+        
     }
 
     .contact{
         display: flex;
         flex-direction: column;
         margin-top: 50px;
+        align-items: center;
+        
         
     }
     .contact-text h2{
-        font-size: 25px;
+        font-size: 35px;
     }
     .hng-links{
         display: flex;
@@ -847,7 +881,7 @@ color: rgb(234, 0, 255);
 
   .footer{
     background-color: #051129;
-    
+    margin-top: 30px;
   }
   .hng-links{
     display: flex;
