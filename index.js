@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log(`Natural Width: ${naturalWidth}, Natural Height: ${naturalHeight}`);
         
         // Now you can use these values as needed
-        img.dataset.naturalWidth = naturalWidth;
-        img.dataset.naturalHeight = naturalHeight;
+        img.dataset.naturalWidth = 410;
+        img.dataset.naturalHeight = 410;
     });
 
    

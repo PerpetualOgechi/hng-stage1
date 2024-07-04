@@ -28,7 +28,7 @@
         <section class="home">
             <div class="home-content">
                 <h3>Hello, It's me</h3>
-                <h1 id="slackDisplayName">Ogechi Ukwueze</h1>
+                <h1 id="slackDisplayName" data-testid="slackDisplayName">Ogechi Ukwueze</h1>
                 <h3>I am a <span class="text"></span></h3>
                 <p>I am a web developer with extensive experience for 2 years
                     expertise is to build and develop interactive and dynamic web pages for good user experience
@@ -55,7 +55,7 @@
             <div class="about-img">
                 <div class="image-container">
                     <div class="img-inner-cont">
-                        <img id="slackProfilePicture" src="images/profile-pic.jpeg" alt="slackProfilePicture">
+                        <img id="slackProfilePicture" data-testid="slackProfilePicture" src="images/profile-pic.jpeg" alt="slackProfilePicture">
                     </div>
                 </div>
             </div>
@@ -69,8 +69,8 @@
                     front-end technologies and best practices, I aim to contribute to a dynamic team where I can continue to grow,
                     create impactful user experiences, and drive the success of the product.
                 </p>
-                <h3 id="currentDay" class="currentDay"></h3>
-                <h3 id="currentTimeUTC"></h3>
+                <h3 id="currentDay" data-testid="currentDay" class="currentDay"></h3>
+                <h3 id="currentTimeUTC" data-testid="currentTimeUTC"></h3>
             </div>
         </section>
 
@@ -164,7 +164,7 @@
                 <p>Am very much available for collaborations
                 </p>
                 <div class="contact-list">
-                    <li id="slackEmail"><i class="bx bxs-send"></i>perpetualogechi34@gmail.com</li>
+                    <li id=""><i class="bx bxs-send"></i> <span id="slackEmail" data-testid="slackEmail">perpetualogechi34@gmail.com</span></li>
                     <li><i class="bx bxs-phone"></i>+2349129623671</li>
                 </div>
                 <div class="contact-icons">
@@ -183,9 +183,9 @@
         </section>
         <footer class="footer">
             <div class="hng-links">
-                <a href="http://hng.tech/learn" id="hngLink">http://hng.tech/learn</a>
-                <a href="http://keyword.dog/" id="keywordLink">http://keyword.dog/</a>
-                <a href="http://scrapeanyweb.site/" id="scrapeanywebLink">http://scrapeanyweb.site/</a>
+                <a href="http://hng.tech/learn" id="hngLink" data-testid="hngLink">http://hng.tech/learn</a>
+                <a href="http://keyword.dog/" id="keywordLink" data-testid="keywordLink">http://keyword.dog/</a>
+                <a href="http://scrapeanyweb.site/" id="scrapeanywebLink" data-testid="scrapeanywebLink">http://scrapeanyweb.site/</a>
             </div>
             <div class="Copyright">
                 Copyright @ 2024, All Rights Reserved
